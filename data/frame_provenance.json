@@ -1,0 +1,14 @@
+{
+  "scraped_on": "2026-09-07",
+  "built_on": "2026-09-07",
+  "source_page": "https://rtionline.karnataka.gov.in/NodalOfficerDetails.php",
+  "raw_rows": 1800,
+  "unique_offices": 1800,
+  "district_block_joined_from_legacy_file": 1695,
+  "frame_sha256": "cce25893407f5aa8fe843e4d2345111d6fd0a68e76d03ec5547e2e6ad671e3fe",
+  "notes": [
+    "names kept portal-verbatim after whitespace normalisation",
+    "NodalOfficerDetails.php is the portal's public roster of onboarded public authorities; the filing dropdown itself sits behind email+OTP+CAPTCHA and was not accessed",
+    "district falls back to the leading segment of the office name when the legacy classification file has no match"
+  ]
+}
