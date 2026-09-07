@@ -149,7 +149,7 @@ def main():
         "template_version", "language", "channel",
         "filing_outcome", "not_filed_reason", "filing_date",
         "registration_number", "fee_paid_inr", "payment_mode",
-        "payment_reference", "due_date", "notes",
+        "evidence_url", "payment_reference", "due_date", "notes",
     ]
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "worklists").mkdir(exist_ok=True)
@@ -164,7 +164,7 @@ def main():
             "template_version": "v3", "language": "en", "channel": "portal",
             "filing_outcome": "", "not_filed_reason": "", "filing_date": "",
             "registration_number": "", "fee_paid_inr": "", "payment_mode": "",
-            "payment_reference": "", "due_date": "", "notes": "",
+            "evidence_url": "", "payment_reference": "", "due_date": "", "notes": "",
         }
 
     with open(OUT / "assignments.csv", "w", newline="", encoding="utf-8") as f:
